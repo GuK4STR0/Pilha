@@ -42,7 +42,7 @@ public class Pilha {
                     break;
                 case 4:
                     if (!pilha.isEmpty()) {
-                        System.out.println("Conteúdo da pilha:");
+                        System.out.println("Conteúdos da pilha:");
                         for (int i = pilha.size() - 1; i >= 0; i--) {
                             System.out.println(pilha.get(i));
                         }
